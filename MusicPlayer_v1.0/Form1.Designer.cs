@@ -39,10 +39,10 @@
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges31 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges32 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges33 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges34 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges35 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges36 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
@@ -58,10 +58,6 @@
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges46 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges47 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges48 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -94,13 +90,21 @@
             this.btn_search = new System.Windows.Forms.Button();
             this.btn_home = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_pre = new Bunifu.UI.WinForms.BunifuImageButton();
+            this.btn_next = new Bunifu.UI.WinForms.BunifuImageButton();
+            this.btn_pause = new Bunifu.UI.WinForms.BunifuImageButton();
+            this.btn_play = new Bunifu.UI.WinForms.BunifuImageButton();
+            this.lb_singer = new Bunifu.UI.WinForms.BunifuLabel();
+            this.lb_nameSong = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuPictureBox2 = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.lb_playing = new System.Windows.Forms.Label();
             this.bunifuHSlider1 = new Bunifu.UI.WinForms.BunifuHSlider();
             this.bunifuSeparator4 = new Bunifu.UI.WinForms.BunifuSeparator();
             this.bunifuVSlider1 = new Bunifu.UI.WinForms.BunifuVSlider();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.tb_RecentlySong = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuButton23 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton18 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -118,17 +122,22 @@
             this.bunifuButton9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.panel8 = new System.Windows.Forms.Panel();
             this.lb_AllSongs = new System.Windows.Forms.Label();
-            this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuPictureBox3 = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.bunifuPictureBox4 = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.lb_recentlySong = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox2)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -1066,6 +1075,7 @@
             this.btn_addSong.TabIndex = 0;
             this.btn_addSong.Text = "Add a Song";
             this.btn_addSong.UseVisualStyleBackColor = true;
+            this.btn_addSong.Click += new System.EventHandler(this.btn_addSong_Click);
             // 
             // btn_removeSong
             // 
@@ -1168,11 +1178,212 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Yellow;
+            this.panel2.Controls.Add(this.btn_pre);
+            this.panel2.Controls.Add(this.btn_next);
+            this.panel2.Controls.Add(this.btn_pause);
+            this.panel2.Controls.Add(this.btn_play);
+            this.panel2.Controls.Add(this.lb_singer);
+            this.panel2.Controls.Add(this.lb_nameSong);
+            this.panel2.Controls.Add(this.bunifuPictureBox2);
+            this.panel2.Controls.Add(this.lb_playing);
             this.panel2.Controls.Add(this.bunifuHSlider1);
             this.panel2.Location = new System.Drawing.Point(0, 832);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1812, 100);
             this.panel2.TabIndex = 2;
+            // 
+            // btn_pre
+            // 
+            this.btn_pre.ActiveImage = null;
+            this.btn_pre.AllowAnimations = true;
+            this.btn_pre.AllowBuffering = false;
+            this.btn_pre.AllowToggling = false;
+            this.btn_pre.AllowZooming = true;
+            this.btn_pre.AllowZoomingOnFocus = false;
+            this.btn_pre.BackColor = System.Drawing.Color.Transparent;
+            this.btn_pre.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_pre.ErrorImage = ((System.Drawing.Image)(resources.GetObject("btn_pre.ErrorImage")));
+            this.btn_pre.FadeWhenInactive = false;
+            this.btn_pre.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.btn_pre.Image = ((System.Drawing.Image)(resources.GetObject("btn_pre.Image")));
+            this.btn_pre.ImageActive = null;
+            this.btn_pre.ImageLocation = null;
+            this.btn_pre.ImageMargin = 0;
+            this.btn_pre.ImageSize = new System.Drawing.Size(47, 47);
+            this.btn_pre.ImageZoomSize = new System.Drawing.Size(48, 48);
+            this.btn_pre.InitialImage = ((System.Drawing.Image)(resources.GetObject("btn_pre.InitialImage")));
+            this.btn_pre.Location = new System.Drawing.Point(921, 9);
+            this.btn_pre.Name = "btn_pre";
+            this.btn_pre.Rotation = 0;
+            this.btn_pre.ShowActiveImage = true;
+            this.btn_pre.ShowCursorChanges = true;
+            this.btn_pre.ShowImageBorders = true;
+            this.btn_pre.ShowSizeMarkers = false;
+            this.btn_pre.Size = new System.Drawing.Size(48, 48);
+            this.btn_pre.TabIndex = 8;
+            this.btn_pre.ToolTipText = "";
+            this.btn_pre.WaitOnLoad = false;
+            this.btn_pre.Zoom = 0;
+            this.btn_pre.ZoomSpeed = 10;
+            // 
+            // btn_next
+            // 
+            this.btn_next.ActiveImage = null;
+            this.btn_next.AllowAnimations = true;
+            this.btn_next.AllowBuffering = false;
+            this.btn_next.AllowToggling = false;
+            this.btn_next.AllowZooming = true;
+            this.btn_next.AllowZoomingOnFocus = false;
+            this.btn_next.BackColor = System.Drawing.Color.Transparent;
+            this.btn_next.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_next.ErrorImage = ((System.Drawing.Image)(resources.GetObject("btn_next.ErrorImage")));
+            this.btn_next.FadeWhenInactive = false;
+            this.btn_next.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.btn_next.Image = ((System.Drawing.Image)(resources.GetObject("btn_next.Image")));
+            this.btn_next.ImageActive = null;
+            this.btn_next.ImageLocation = null;
+            this.btn_next.ImageMargin = 0;
+            this.btn_next.ImageSize = new System.Drawing.Size(47, 47);
+            this.btn_next.ImageZoomSize = new System.Drawing.Size(48, 48);
+            this.btn_next.InitialImage = ((System.Drawing.Image)(resources.GetObject("btn_next.InitialImage")));
+            this.btn_next.Location = new System.Drawing.Point(1083, 12);
+            this.btn_next.Name = "btn_next";
+            this.btn_next.Rotation = 0;
+            this.btn_next.ShowActiveImage = true;
+            this.btn_next.ShowCursorChanges = true;
+            this.btn_next.ShowImageBorders = true;
+            this.btn_next.ShowSizeMarkers = false;
+            this.btn_next.Size = new System.Drawing.Size(48, 48);
+            this.btn_next.TabIndex = 8;
+            this.btn_next.ToolTipText = "";
+            this.btn_next.WaitOnLoad = false;
+            this.btn_next.Zoom = 0;
+            this.btn_next.ZoomSpeed = 10;
+            // 
+            // btn_pause
+            // 
+            this.btn_pause.ActiveImage = null;
+            this.btn_pause.AllowAnimations = true;
+            this.btn_pause.AllowBuffering = false;
+            this.btn_pause.AllowToggling = false;
+            this.btn_pause.AllowZooming = true;
+            this.btn_pause.AllowZoomingOnFocus = false;
+            this.btn_pause.BackColor = System.Drawing.Color.Transparent;
+            this.btn_pause.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_pause.ErrorImage = ((System.Drawing.Image)(resources.GetObject("btn_pause.ErrorImage")));
+            this.btn_pause.FadeWhenInactive = false;
+            this.btn_pause.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.btn_pause.Image = ((System.Drawing.Image)(resources.GetObject("btn_pause.Image")));
+            this.btn_pause.ImageActive = null;
+            this.btn_pause.ImageLocation = null;
+            this.btn_pause.ImageMargin = 0;
+            this.btn_pause.ImageSize = new System.Drawing.Size(47, 47);
+            this.btn_pause.ImageZoomSize = new System.Drawing.Size(48, 48);
+            this.btn_pause.InitialImage = ((System.Drawing.Image)(resources.GetObject("btn_pause.InitialImage")));
+            this.btn_pause.Location = new System.Drawing.Point(1029, 12);
+            this.btn_pause.Name = "btn_pause";
+            this.btn_pause.Rotation = 0;
+            this.btn_pause.ShowActiveImage = true;
+            this.btn_pause.ShowCursorChanges = true;
+            this.btn_pause.ShowImageBorders = true;
+            this.btn_pause.ShowSizeMarkers = false;
+            this.btn_pause.Size = new System.Drawing.Size(48, 48);
+            this.btn_pause.TabIndex = 8;
+            this.btn_pause.ToolTipText = "";
+            this.btn_pause.WaitOnLoad = false;
+            this.btn_pause.Zoom = 0;
+            this.btn_pause.ZoomSpeed = 10;
+            // 
+            // btn_play
+            // 
+            this.btn_play.ActiveImage = null;
+            this.btn_play.AllowAnimations = true;
+            this.btn_play.AllowBuffering = false;
+            this.btn_play.AllowToggling = false;
+            this.btn_play.AllowZooming = true;
+            this.btn_play.AllowZoomingOnFocus = false;
+            this.btn_play.BackColor = System.Drawing.Color.Transparent;
+            this.btn_play.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_play.ErrorImage = ((System.Drawing.Image)(resources.GetObject("btn_play.ErrorImage")));
+            this.btn_play.FadeWhenInactive = false;
+            this.btn_play.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.btn_play.Image = ((System.Drawing.Image)(resources.GetObject("btn_play.Image")));
+            this.btn_play.ImageActive = null;
+            this.btn_play.ImageLocation = null;
+            this.btn_play.ImageMargin = 0;
+            this.btn_play.ImageSize = new System.Drawing.Size(47, 47);
+            this.btn_play.ImageZoomSize = new System.Drawing.Size(48, 48);
+            this.btn_play.InitialImage = ((System.Drawing.Image)(resources.GetObject("btn_play.InitialImage")));
+            this.btn_play.Location = new System.Drawing.Point(975, 9);
+            this.btn_play.Name = "btn_play";
+            this.btn_play.Rotation = 0;
+            this.btn_play.ShowActiveImage = true;
+            this.btn_play.ShowCursorChanges = true;
+            this.btn_play.ShowImageBorders = true;
+            this.btn_play.ShowSizeMarkers = false;
+            this.btn_play.Size = new System.Drawing.Size(48, 48);
+            this.btn_play.TabIndex = 8;
+            this.btn_play.ToolTipText = "";
+            this.btn_play.WaitOnLoad = false;
+            this.btn_play.Zoom = 0;
+            this.btn_play.ZoomSpeed = 10;
+            // 
+            // lb_singer
+            // 
+            this.lb_singer.AllowParentOverrides = false;
+            this.lb_singer.AutoEllipsis = false;
+            this.lb_singer.CursorType = null;
+            this.lb_singer.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_singer.Location = new System.Drawing.Point(89, 66);
+            this.lb_singer.Name = "lb_singer";
+            this.lb_singer.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lb_singer.Size = new System.Drawing.Size(34, 17);
+            this.lb_singer.TabIndex = 7;
+            this.lb_singer.Text = "Singer";
+            this.lb_singer.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lb_singer.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // lb_nameSong
+            // 
+            this.lb_nameSong.AllowParentOverrides = false;
+            this.lb_nameSong.AutoEllipsis = false;
+            this.lb_nameSong.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lb_nameSong.CursorType = System.Windows.Forms.Cursors.Default;
+            this.lb_nameSong.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_nameSong.Location = new System.Drawing.Point(89, 35);
+            this.lb_nameSong.Name = "lb_nameSong";
+            this.lb_nameSong.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lb_nameSong.Size = new System.Drawing.Size(94, 25);
+            this.lb_nameSong.TabIndex = 7;
+            this.lb_nameSong.Text = "Name Song";
+            this.lb_nameSong.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lb_nameSong.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuPictureBox2
+            // 
+            this.bunifuPictureBox2.AllowFocused = false;
+            this.bunifuPictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuPictureBox2.AutoSizeHeight = true;
+            this.bunifuPictureBox2.BorderRadius = 31;
+            this.bunifuPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox2.Image")));
+            this.bunifuPictureBox2.IsCircle = true;
+            this.bunifuPictureBox2.Location = new System.Drawing.Point(7, 31);
+            this.bunifuPictureBox2.Name = "bunifuPictureBox2";
+            this.bunifuPictureBox2.Size = new System.Drawing.Size(63, 63);
+            this.bunifuPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuPictureBox2.TabIndex = 6;
+            this.bunifuPictureBox2.TabStop = false;
+            this.bunifuPictureBox2.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
+            // 
+            // lb_playing
+            // 
+            this.lb_playing.AutoSize = true;
+            this.lb_playing.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_playing.Location = new System.Drawing.Point(3, 9);
+            this.lb_playing.Name = "lb_playing";
+            this.lb_playing.Size = new System.Drawing.Size(93, 19);
+            this.lb_playing.TabIndex = 5;
+            this.lb_playing.Text = "Now Playing";
             // 
             // bunifuHSlider1
             // 
@@ -1193,9 +1404,9 @@
             this.bunifuHSlider1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuHSlider1.DrawThickBorder = false;
             this.bunifuHSlider1.DurationBeforeShrink = 2000;
-            this.bunifuHSlider1.ElapsedColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuHSlider1.ElapsedColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(51)))), ((int)(((byte)(255)))));
             this.bunifuHSlider1.LargeChange = 10;
-            this.bunifuHSlider1.Location = new System.Drawing.Point(385, 34);
+            this.bunifuHSlider1.Location = new System.Drawing.Point(463, 57);
             this.bunifuHSlider1.Maximum = 100;
             this.bunifuHSlider1.Minimum = 0;
             this.bunifuHSlider1.MinimumSize = new System.Drawing.Size(0, 31);
@@ -1207,15 +1418,15 @@
             this.bunifuHSlider1.ScrollBarBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.bunifuHSlider1.ScrollBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.bunifuHSlider1.ShrinkSizeLimit = 3;
-            this.bunifuHSlider1.Size = new System.Drawing.Size(1389, 31);
+            this.bunifuHSlider1.Size = new System.Drawing.Size(1081, 31);
             this.bunifuHSlider1.SliderColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.bunifuHSlider1.SliderStyle = Bunifu.UI.WinForms.BunifuHSlider.SliderStyles.Thin;
             this.bunifuHSlider1.SliderThumbStyle = Utilities.BunifuSlider.BunifuHScrollBar.SliderThumbStyles.Circular;
             this.bunifuHSlider1.SmallChange = 1;
             this.bunifuHSlider1.TabIndex = 4;
-            this.bunifuHSlider1.ThumbColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuHSlider1.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(51)))), ((int)(((byte)(255)))));
             this.bunifuHSlider1.ThumbFillColor = System.Drawing.SystemColors.Control;
-            this.bunifuHSlider1.ThumbLength = 137;
+            this.bunifuHSlider1.ThumbLength = 107;
             this.bunifuHSlider1.ThumbMargin = 1;
             this.bunifuHSlider1.ThumbSize = Bunifu.UI.WinForms.BunifuHSlider.ThumbSizes.Medium;
             this.bunifuHSlider1.ThumbStyle = Bunifu.UI.WinForms.BunifuHSlider.ThumbStyles.Outline;
@@ -1258,7 +1469,7 @@
             this.bunifuVSlider1.DurationBeforeShrink = 2000;
             this.bunifuVSlider1.ElapsedColor = System.Drawing.Color.DodgerBlue;
             this.bunifuVSlider1.LargeChange = 10;
-            this.bunifuVSlider1.Location = new System.Drawing.Point(1769, 601);
+            this.bunifuVSlider1.Location = new System.Drawing.Point(1760, 563);
             this.bunifuVSlider1.Maximum = 100;
             this.bunifuVSlider1.Minimum = 0;
             this.bunifuVSlider1.MinimumSize = new System.Drawing.Size(31, 0);
@@ -1273,7 +1484,7 @@
             this.bunifuVSlider1.ScrollBarBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.bunifuVSlider1.ScrollBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.bunifuVSlider1.ShrinkSizeLimit = 3;
-            this.bunifuVSlider1.Size = new System.Drawing.Size(31, 200);
+            this.bunifuVSlider1.Size = new System.Drawing.Size(45, 200);
             this.bunifuVSlider1.SliderColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.bunifuVSlider1.SliderStyle = Bunifu.UI.WinForms.BunifuVSlider.SliderStyles.Thin;
             this.bunifuVSlider1.SliderThumbStyle = Utilities.BunifuSlider.BunifuVScrollBar.SliderThumbStyles.Circular;
@@ -1297,6 +1508,82 @@
             this.panel6.Size = new System.Drawing.Size(200, 43);
             this.panel6.TabIndex = 5;
             // 
+            // bunifuTextBox1
+            // 
+            this.bunifuTextBox1.AcceptsReturn = false;
+            this.bunifuTextBox1.AcceptsTab = false;
+            this.bunifuTextBox1.AnimationSpeed = 200;
+            this.bunifuTextBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.bunifuTextBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.bunifuTextBox1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTextBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextBox1.BackgroundImage")));
+            this.bunifuTextBox1.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.bunifuTextBox1.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.bunifuTextBox1.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.bunifuTextBox1.BorderColorIdle = System.Drawing.Color.Silver;
+            this.bunifuTextBox1.BorderRadius = 1;
+            this.bunifuTextBox1.BorderThickness = 1;
+            this.bunifuTextBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.bunifuTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuTextBox1.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.bunifuTextBox1.DefaultText = "KaoWaiDev";
+            this.bunifuTextBox1.Enabled = false;
+            this.bunifuTextBox1.FillColor = System.Drawing.Color.White;
+            this.bunifuTextBox1.HideSelection = true;
+            this.bunifuTextBox1.IconLeft = null;
+            this.bunifuTextBox1.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuTextBox1.IconPadding = 10;
+            this.bunifuTextBox1.IconRight = null;
+            this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuTextBox1.Lines = new string[] {
+        "KaoWaiDev"};
+            this.bunifuTextBox1.Location = new System.Drawing.Point(3, 3);
+            this.bunifuTextBox1.MaxLength = 32767;
+            this.bunifuTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.bunifuTextBox1.Modified = false;
+            this.bunifuTextBox1.Multiline = false;
+            this.bunifuTextBox1.Name = "bunifuTextBox1";
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox1.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.Color.White;
+            stateProperties8.ForeColor = System.Drawing.Color.Empty;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnIdleState = stateProperties8;
+            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
+            this.bunifuTextBox1.PasswordChar = '\0';
+            this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.bunifuTextBox1.PlaceholderText = "Enter text";
+            this.bunifuTextBox1.ReadOnly = false;
+            this.bunifuTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.bunifuTextBox1.SelectedText = "";
+            this.bunifuTextBox1.SelectionLength = 0;
+            this.bunifuTextBox1.SelectionStart = 0;
+            this.bunifuTextBox1.ShortcutsEnabled = true;
+            this.bunifuTextBox1.Size = new System.Drawing.Size(136, 37);
+            this.bunifuTextBox1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.bunifuTextBox1.TabIndex = 1;
+            this.bunifuTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuTextBox1.TextMarginBottom = 0;
+            this.bunifuTextBox1.TextMarginLeft = 3;
+            this.bunifuTextBox1.TextMarginTop = 0;
+            this.bunifuTextBox1.TextPlaceholder = "Enter text";
+            this.bunifuTextBox1.UseSystemPasswordChar = false;
+            this.bunifuTextBox1.WordWrap = true;
+            // 
             // bunifuPictureBox1
             // 
             this.bunifuPictureBox1.AllowFocused = false;
@@ -1316,7 +1603,7 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.panel7.Controls.Add(this.tb_RecentlySong);
+            this.panel7.Controls.Add(this.lb_recentlySong);
             this.panel7.Controls.Add(this.bunifuButton23);
             this.panel7.Controls.Add(this.bunifuButton18);
             this.panel7.Controls.Add(this.bunifuButton12);
@@ -1336,81 +1623,6 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1372, 217);
             this.panel7.TabIndex = 6;
-            // 
-            // tb_RecentlySong
-            // 
-            this.tb_RecentlySong.AcceptsReturn = false;
-            this.tb_RecentlySong.AcceptsTab = false;
-            this.tb_RecentlySong.AnimationSpeed = 200;
-            this.tb_RecentlySong.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.tb_RecentlySong.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.tb_RecentlySong.BackColor = System.Drawing.Color.Transparent;
-            this.tb_RecentlySong.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tb_RecentlySong.BackgroundImage")));
-            this.tb_RecentlySong.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.tb_RecentlySong.BorderColorDisabled = System.Drawing.Color.White;
-            this.tb_RecentlySong.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.tb_RecentlySong.BorderColorIdle = System.Drawing.Color.Silver;
-            this.tb_RecentlySong.BorderRadius = 1;
-            this.tb_RecentlySong.BorderThickness = 1;
-            this.tb_RecentlySong.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.tb_RecentlySong.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tb_RecentlySong.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.tb_RecentlySong.DefaultText = "Recently Songs";
-            this.tb_RecentlySong.FillColor = System.Drawing.Color.White;
-            this.tb_RecentlySong.HideSelection = true;
-            this.tb_RecentlySong.IconLeft = null;
-            this.tb_RecentlySong.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tb_RecentlySong.IconPadding = 10;
-            this.tb_RecentlySong.IconRight = null;
-            this.tb_RecentlySong.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tb_RecentlySong.Lines = new string[] {
-        "Recently Songs"};
-            this.tb_RecentlySong.Location = new System.Drawing.Point(3, 3);
-            this.tb_RecentlySong.MaxLength = 32767;
-            this.tb_RecentlySong.MinimumSize = new System.Drawing.Size(1, 1);
-            this.tb_RecentlySong.Modified = false;
-            this.tb_RecentlySong.Multiline = false;
-            this.tb_RecentlySong.Name = "tb_RecentlySong";
-            stateProperties13.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties13.FillColor = System.Drawing.Color.Empty;
-            stateProperties13.ForeColor = System.Drawing.Color.Empty;
-            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tb_RecentlySong.OnActiveState = stateProperties13;
-            stateProperties14.BorderColor = System.Drawing.Color.White;
-            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.tb_RecentlySong.OnDisabledState = stateProperties14;
-            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties15.FillColor = System.Drawing.Color.Empty;
-            stateProperties15.ForeColor = System.Drawing.Color.Empty;
-            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tb_RecentlySong.OnHoverState = stateProperties15;
-            stateProperties16.BorderColor = System.Drawing.Color.Silver;
-            stateProperties16.FillColor = System.Drawing.Color.White;
-            stateProperties16.ForeColor = System.Drawing.Color.Empty;
-            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tb_RecentlySong.OnIdleState = stateProperties16;
-            this.tb_RecentlySong.Padding = new System.Windows.Forms.Padding(3);
-            this.tb_RecentlySong.PasswordChar = '\0';
-            this.tb_RecentlySong.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.tb_RecentlySong.PlaceholderText = "Enter text";
-            this.tb_RecentlySong.ReadOnly = false;
-            this.tb_RecentlySong.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tb_RecentlySong.SelectedText = "";
-            this.tb_RecentlySong.SelectionLength = 0;
-            this.tb_RecentlySong.SelectionStart = 14;
-            this.tb_RecentlySong.ShortcutsEnabled = true;
-            this.tb_RecentlySong.Size = new System.Drawing.Size(107, 37);
-            this.tb_RecentlySong.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.tb_RecentlySong.TabIndex = 0;
-            this.tb_RecentlySong.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.tb_RecentlySong.TextMarginBottom = 0;
-            this.tb_RecentlySong.TextMarginLeft = 3;
-            this.tb_RecentlySong.TextMarginTop = 0;
-            this.tb_RecentlySong.TextPlaceholder = "Enter text";
-            this.tb_RecentlySong.UseSystemPasswordChar = false;
-            this.tb_RecentlySong.WordWrap = true;
             // 
             // bunifuButton23
             // 
@@ -2766,81 +2978,47 @@
             this.lb_AllSongs.TabIndex = 0;
             this.lb_AllSongs.Text = "All Songs";
             // 
-            // bunifuTextBox1
+            // bunifuPictureBox3
             // 
-            this.bunifuTextBox1.AcceptsReturn = false;
-            this.bunifuTextBox1.AcceptsTab = false;
-            this.bunifuTextBox1.AnimationSpeed = 200;
-            this.bunifuTextBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.bunifuTextBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.bunifuTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTextBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextBox1.BackgroundImage")));
-            this.bunifuTextBox1.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.bunifuTextBox1.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.bunifuTextBox1.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuTextBox1.BorderColorIdle = System.Drawing.Color.Silver;
-            this.bunifuTextBox1.BorderRadius = 1;
-            this.bunifuTextBox1.BorderThickness = 1;
-            this.bunifuTextBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.bunifuTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox1.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.bunifuTextBox1.DefaultText = "KaoWaiDev";
-            this.bunifuTextBox1.Enabled = false;
-            this.bunifuTextBox1.FillColor = System.Drawing.Color.White;
-            this.bunifuTextBox1.HideSelection = true;
-            this.bunifuTextBox1.IconLeft = null;
-            this.bunifuTextBox1.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox1.IconPadding = 10;
-            this.bunifuTextBox1.IconRight = null;
-            this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox1.Lines = new string[] {
-        "KaoWaiDev"};
-            this.bunifuTextBox1.Location = new System.Drawing.Point(3, 3);
-            this.bunifuTextBox1.MaxLength = 32767;
-            this.bunifuTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.bunifuTextBox1.Modified = false;
-            this.bunifuTextBox1.Multiline = false;
-            this.bunifuTextBox1.Name = "bunifuTextBox1";
-            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties9.FillColor = System.Drawing.Color.Empty;
-            stateProperties9.ForeColor = System.Drawing.Color.Empty;
-            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnActiveState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox1.OnDisabledState = stateProperties10;
-            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties11.FillColor = System.Drawing.Color.Empty;
-            stateProperties11.ForeColor = System.Drawing.Color.Empty;
-            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.Silver;
-            stateProperties12.FillColor = System.Drawing.Color.White;
-            stateProperties12.ForeColor = System.Drawing.Color.Empty;
-            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnIdleState = stateProperties12;
-            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
-            this.bunifuTextBox1.PasswordChar = '\0';
-            this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.bunifuTextBox1.PlaceholderText = "Enter text";
-            this.bunifuTextBox1.ReadOnly = false;
-            this.bunifuTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.bunifuTextBox1.SelectedText = "";
-            this.bunifuTextBox1.SelectionLength = 0;
-            this.bunifuTextBox1.SelectionStart = 0;
-            this.bunifuTextBox1.ShortcutsEnabled = true;
-            this.bunifuTextBox1.Size = new System.Drawing.Size(136, 37);
-            this.bunifuTextBox1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.bunifuTextBox1.TabIndex = 1;
-            this.bunifuTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuTextBox1.TextMarginBottom = 0;
-            this.bunifuTextBox1.TextMarginLeft = 3;
-            this.bunifuTextBox1.TextMarginTop = 0;
-            this.bunifuTextBox1.TextPlaceholder = "Enter text";
-            this.bunifuTextBox1.UseSystemPasswordChar = false;
-            this.bunifuTextBox1.WordWrap = true;
+            this.bunifuPictureBox3.AllowFocused = false;
+            this.bunifuPictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuPictureBox3.AutoSizeHeight = true;
+            this.bunifuPictureBox3.BorderRadius = 21;
+            this.bunifuPictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox3.Image")));
+            this.bunifuPictureBox3.IsCircle = true;
+            this.bunifuPictureBox3.Location = new System.Drawing.Point(1760, 514);
+            this.bunifuPictureBox3.Name = "bunifuPictureBox3";
+            this.bunifuPictureBox3.Size = new System.Drawing.Size(43, 43);
+            this.bunifuPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuPictureBox3.TabIndex = 8;
+            this.bunifuPictureBox3.TabStop = false;
+            this.bunifuPictureBox3.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
+            // 
+            // bunifuPictureBox4
+            // 
+            this.bunifuPictureBox4.AllowFocused = false;
+            this.bunifuPictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuPictureBox4.AutoSizeHeight = true;
+            this.bunifuPictureBox4.BorderRadius = 21;
+            this.bunifuPictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox4.Image")));
+            this.bunifuPictureBox4.IsCircle = true;
+            this.bunifuPictureBox4.Location = new System.Drawing.Point(1760, 769);
+            this.bunifuPictureBox4.Name = "bunifuPictureBox4";
+            this.bunifuPictureBox4.Size = new System.Drawing.Size(43, 43);
+            this.bunifuPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuPictureBox4.TabIndex = 8;
+            this.bunifuPictureBox4.TabStop = false;
+            this.bunifuPictureBox4.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
+            // 
+            // lb_recentlySong
+            // 
+            this.lb_recentlySong.AutoSize = true;
+            this.lb_recentlySong.Font = new System.Drawing.Font("Microsoft New Tai Lue", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_recentlySong.Location = new System.Drawing.Point(21, 9);
+            this.lb_recentlySong.Name = "lb_recentlySong";
+            this.lb_recentlySong.Size = new System.Drawing.Size(139, 25);
+            this.lb_recentlySong.TabIndex = 0;
+            this.lb_recentlySong.Text = "Recently Songs";
             // 
             // dashBoard
             // 
@@ -2848,6 +3026,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1812, 932);
+            this.Controls.Add(this.bunifuPictureBox4);
+            this.Controls.Add(this.bunifuPictureBox3);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel6);
@@ -2871,11 +3051,16 @@
             this.panel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox2)).EndInit();
             this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
             this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2921,7 +3106,6 @@
         private System.Windows.Forms.Panel panel6;
         private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox1;
         private System.Windows.Forms.Panel panel7;
-        private Bunifu.UI.WinForms.BunifuTextBox tb_RecentlySong;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton23;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton18;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton12;
@@ -2940,6 +3124,17 @@
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label lb_AllSongs;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox1;
+        private System.Windows.Forms.Label lb_playing;
+        private Bunifu.UI.WinForms.BunifuImageButton btn_play;
+        private Bunifu.UI.WinForms.BunifuLabel lb_singer;
+        private Bunifu.UI.WinForms.BunifuLabel lb_nameSong;
+        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox2;
+        private Bunifu.UI.WinForms.BunifuImageButton btn_pre;
+        private Bunifu.UI.WinForms.BunifuImageButton btn_next;
+        private Bunifu.UI.WinForms.BunifuImageButton btn_pause;
+        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox3;
+        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox4;
+        private System.Windows.Forms.Label lb_recentlySong;
     }
 }
 

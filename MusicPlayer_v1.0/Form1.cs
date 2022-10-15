@@ -35,5 +35,11 @@ namespace MusicPlayer_v1._0
                 MessageBox.Show("Thank For Using😍");
             }
         }
+
+        private void btn_addSong_Click(object sender, EventArgs e)
+        {
+            addASong addASong = new addASong();
+            addASong.Show();
+        }
     }
 }
