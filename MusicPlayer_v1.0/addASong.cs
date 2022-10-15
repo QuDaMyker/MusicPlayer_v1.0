@@ -26,4 +26,12 @@ namespace MusicPlayer_v1._0
             }
         }
     }
+    public class Songs
+    {
+        public string SongName { get; set; }
+        public string Singer { get; set; }
+        public string Type { get; set; }
+        public string Duration { get; set; }
+    }
+
 }
