@@ -28,73 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lb_addASongTittle = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lb_SourceSong = new System.Windows.Forms.Label();
             this.lb_DataSong = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.webBrowserData = new System.Windows.Forms.WebBrowser();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.webBrowserSource = new System.Windows.Forms.WebBrowser();
+            this.tbPath = new System.Windows.Forms.TextBox();
+            this.btnCopySong = new System.Windows.Forms.Button();
+            this.btnRemoveSong = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.dataGridView2);
-            this.panel2.Location = new System.Drawing.Point(18, 189);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(765, 736);
-            this.panel2.TabIndex = 1;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AllowUserToOrderColumns = true;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4});
-            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(758, 730);
-            this.dataGridView2.TabIndex = 0;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn1.FillWeight = 200F;
-            this.dataGridViewTextBoxColumn1.HeaderText = "Song Name";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "Singer";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.HeaderText = "Type";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.HeaderText = "Duration";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
             // lb_addASongTittle
             // 
@@ -136,63 +84,72 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.dataGridView1);
-            this.panel3.Location = new System.Drawing.Point(944, 189);
+            this.panel3.Controls.Add(this.webBrowserData);
+            this.panel3.Location = new System.Drawing.Point(944, 250);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(765, 736);
+            this.panel3.Size = new System.Drawing.Size(765, 675);
             this.panel3.TabIndex = 1;
             // 
-            // button1
+            // webBrowserData
             // 
-            this.button1.Location = new System.Drawing.Point(260, 402);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(8, 8);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.webBrowserData.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowserData.Location = new System.Drawing.Point(0, 0);
+            this.webBrowserData.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowserData.Name = "webBrowserData";
+            this.webBrowserData.Size = new System.Drawing.Size(765, 675);
+            this.webBrowserData.TabIndex = 0;
             // 
-            // dataGridViewTextBoxColumn8
+            // panel2
             // 
-            this.dataGridViewTextBoxColumn8.HeaderText = "Duration";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.panel2.Controls.Add(this.webBrowserSource);
+            this.panel2.Location = new System.Drawing.Point(18, 250);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(765, 675);
+            this.panel2.TabIndex = 1;
             // 
-            // dataGridViewTextBoxColumn7
+            // webBrowserSource
             // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "Type";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.webBrowserSource.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowserSource.Location = new System.Drawing.Point(0, 0);
+            this.webBrowserSource.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowserSource.Name = "webBrowserSource";
+            this.webBrowserSource.Size = new System.Drawing.Size(765, 675);
+            this.webBrowserSource.TabIndex = 0;
             // 
-            // dataGridViewTextBoxColumn6
+            // tbPath
             // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "Singer";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.tbPath.Location = new System.Drawing.Point(18, 222);
+            this.tbPath.Name = "tbPath";
+            this.tbPath.ReadOnly = true;
+            this.tbPath.Size = new System.Drawing.Size(765, 20);
+            this.tbPath.TabIndex = 2;
             // 
-            // dataGridViewTextBoxColumn5
+            // btnCopySong
             // 
-            this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn5.FillWeight = 200F;
-            this.dataGridViewTextBoxColumn5.HeaderText = "Song Name";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.btnCopySong.Location = new System.Drawing.Point(811, 511);
+            this.btnCopySong.Name = "btnCopySong";
+            this.btnCopySong.Size = new System.Drawing.Size(98, 51);
+            this.btnCopySong.TabIndex = 3;
+            this.btnCopySong.Text = ">>>>>";
+            this.btnCopySong.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // btnRemoveSong
             // 
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(758, 730);
-            this.dataGridView1.TabIndex = 0;
+            this.btnRemoveSong.Location = new System.Drawing.Point(811, 579);
+            this.btnRemoveSong.Name = "btnRemoveSong";
+            this.btnRemoveSong.Size = new System.Drawing.Size(98, 51);
+            this.btnRemoveSong.TabIndex = 3;
+            this.btnRemoveSong.Text = "<<<<<";
+            this.btnRemoveSong.UseVisualStyleBackColor = true;
             // 
             // addASong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1721, 939);
+            this.Controls.Add(this.btnRemoveSong);
+            this.Controls.Add(this.btnCopySong);
+            this.Controls.Add(this.tbPath);
             this.Controls.Add(this.lb_DataSong);
             this.Controls.Add(this.lb_SourceSong);
             this.Controls.Add(this.panel3);
@@ -202,35 +159,26 @@
             this.Name = "addASong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "addASong";
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lb_addASongTittle;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lb_SourceSong;
         private System.Windows.Forms.Label lb_DataSong;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.WebBrowser webBrowserData;
+        private System.Windows.Forms.WebBrowser webBrowserSource;
+        private System.Windows.Forms.TextBox tbPath;
+        private System.Windows.Forms.Button btnCopySong;
+        private System.Windows.Forms.Button btnRemoveSong;
     }
 }

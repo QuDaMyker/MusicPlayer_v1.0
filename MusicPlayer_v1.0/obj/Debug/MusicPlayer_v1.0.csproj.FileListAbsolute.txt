@@ -26,3 +26,5 @@ E:\UIT University\Semester 3\IT008.N13 - Lập trình trực quan\Đồ Án\Musi
 E:\UIT University\Semester 3\IT008.N13 - Lập trình trực quan\Đồ Án\MusicPlayer_v1.0\MusicPlayer_v1.0\obj\Debug\MusicPlayer_v1.0.csproj.CopyComplete
 E:\UIT University\Semester 3\IT008.N13 - Lập trình trực quan\Đồ Án\MusicPlayer_v1.0\MusicPlayer_v1.0\obj\Debug\MusicPlayer_v1.0.exe
 E:\UIT University\Semester 3\IT008.N13 - Lập trình trực quan\Đồ Án\MusicPlayer_v1.0\MusicPlayer_v1.0\obj\Debug\MusicPlayer_v1.0.pdb
+E:\UIT University\Semester 3\IT008.N13 - Lập trình trực quan\Đồ Án\MusicPlayer_v1.0\MusicPlayer_v1.0\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+E:\UIT University\Semester 3\IT008.N13 - Lập trình trực quan\Đồ Án\MusicPlayer_v1.0\MusicPlayer_v1.0\bin\Debug\Guna.UI2.dll

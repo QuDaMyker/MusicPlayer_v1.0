@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,23 +16,28 @@ namespace MusicPlayer_v1._0
         public addASong()
         {
             InitializeComponent();
+            loadSongInSource();
+            loadSongInDatabase();
+        }
+        private void loadSongInSource()
+        {
+            using (FolderBrowserDialog sc = new FolderBrowserDialog() { Description = "Choose Path" })
+            {
+                string usernameAccountPC = Environment.UserName;
+                sc.SelectedPath = $"C:\\Users\\{usernameAccountPC}\\Downloads\\Music";
+                webBrowserSource.Url = new Uri(sc.SelectedPath);
+                tbPath.Text = sc.SelectedPath;
+            }
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void loadSongInDatabase()
         {
-            OpenFileDialog ofd = new OpenFileDialog();
-            if(ofd.ShowDialog() == DialogResult.OK)
+            using (FolderBrowserDialog db = new FolderBrowserDialog() { Description = "Choose Path" })
             {
-
+                db.SelectedPath = "C:\\Users\\quocd\\Downloads\\Music";
+                webBrowserSource.Url = new Uri(db.SelectedPath);
+                tbPath.Text = db.SelectedPath;
             }
         }
     }
-    public class Songs
-    {
-        public string SongName { get; set; }
-        public string Singer { get; set; }
-        public string Type { get; set; }
-        public string Duration { get; set; }
-    }
-
 }
