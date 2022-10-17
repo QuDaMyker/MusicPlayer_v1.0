@@ -36,9 +36,12 @@
             this.webBrowserData = new System.Windows.Forms.WebBrowser();
             this.panel2 = new System.Windows.Forms.Panel();
             this.webBrowserSource = new System.Windows.Forms.WebBrowser();
-            this.tbPath = new System.Windows.Forms.TextBox();
+            this.tbPathSouce = new System.Windows.Forms.TextBox();
             this.btnCopySong = new System.Windows.Forms.Button();
             this.btnRemoveSong = new System.Windows.Forms.Button();
+            this.tbPathDatabase = new System.Windows.Forms.TextBox();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -116,13 +119,13 @@
             this.webBrowserSource.Size = new System.Drawing.Size(765, 675);
             this.webBrowserSource.TabIndex = 0;
             // 
-            // tbPath
+            // tbPathSouce
             // 
-            this.tbPath.Location = new System.Drawing.Point(18, 222);
-            this.tbPath.Name = "tbPath";
-            this.tbPath.ReadOnly = true;
-            this.tbPath.Size = new System.Drawing.Size(765, 20);
-            this.tbPath.TabIndex = 2;
+            this.tbPathSouce.Location = new System.Drawing.Point(18, 222);
+            this.tbPathSouce.Name = "tbPathSouce";
+            this.tbPathSouce.ReadOnly = true;
+            this.tbPathSouce.Size = new System.Drawing.Size(765, 20);
+            this.tbPathSouce.TabIndex = 2;
             // 
             // btnCopySong
             // 
@@ -132,6 +135,7 @@
             this.btnCopySong.TabIndex = 3;
             this.btnCopySong.Text = ">>>>>";
             this.btnCopySong.UseVisualStyleBackColor = true;
+            this.btnCopySong.Click += new System.EventHandler(this.btnCopySong_Click);
             // 
             // btnRemoveSong
             // 
@@ -142,6 +146,18 @@
             this.btnRemoveSong.Text = "<<<<<";
             this.btnRemoveSong.UseVisualStyleBackColor = true;
             // 
+            // tbPathDatabase
+            // 
+            this.tbPathDatabase.Location = new System.Drawing.Point(944, 222);
+            this.tbPathDatabase.Name = "tbPathDatabase";
+            this.tbPathDatabase.ReadOnly = true;
+            this.tbPathDatabase.Size = new System.Drawing.Size(765, 20);
+            this.tbPathDatabase.TabIndex = 2;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // addASong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -149,7 +165,8 @@
             this.ClientSize = new System.Drawing.Size(1721, 939);
             this.Controls.Add(this.btnRemoveSong);
             this.Controls.Add(this.btnCopySong);
-            this.Controls.Add(this.tbPath);
+            this.Controls.Add(this.tbPathDatabase);
+            this.Controls.Add(this.tbPathSouce);
             this.Controls.Add(this.lb_DataSong);
             this.Controls.Add(this.lb_SourceSong);
             this.Controls.Add(this.panel3);
@@ -177,8 +194,11 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.WebBrowser webBrowserData;
         private System.Windows.Forms.WebBrowser webBrowserSource;
-        private System.Windows.Forms.TextBox tbPath;
+        private System.Windows.Forms.TextBox tbPathSouce;
         private System.Windows.Forms.Button btnCopySong;
         private System.Windows.Forms.Button btnRemoveSong;
+        private System.Windows.Forms.TextBox tbPathDatabase;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
