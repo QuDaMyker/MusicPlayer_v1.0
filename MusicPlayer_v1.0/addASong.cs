@@ -45,7 +45,7 @@ namespace MusicPlayer_v1._0
                             if(fd.ShowDialog() == DialogResult.OK)
                             {
                                 webBrowserSource.Url = new Uri(fd.SelectedPath);
-                                tbPathSouce.Text = sc.SelectedPath;
+                                tbPathSouce.Text = fd.SelectedPath;
                             }
                         }
                     }
@@ -98,6 +98,18 @@ namespace MusicPlayer_v1._0
             else
             {
                 MessageBox.Show("Please Select Your File");
+            }
+        }
+
+        private void btnImport_Click(object sender, EventArgs e)
+        {
+            using (FolderBrowserDialog fd = new FolderBrowserDialog() { Description = "Choose Path" })
+            {
+                if (fd.ShowDialog() == DialogResult.OK)
+                {
+                    webBrowserSource.Url = new Uri(fd.SelectedPath);
+                    tbPathSouce.Text = fd.SelectedPath;
+                }
             }
         }
     }

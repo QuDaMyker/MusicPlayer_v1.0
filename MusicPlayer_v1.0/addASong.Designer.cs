@@ -42,6 +42,7 @@
             this.tbPathDatabase = new System.Windows.Forms.TextBox();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btnImport = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -158,11 +159,23 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // btnImport
+            // 
+            this.btnImport.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImport.Location = new System.Drawing.Point(18, 152);
+            this.btnImport.Name = "btnImport";
+            this.btnImport.Size = new System.Drawing.Size(176, 55);
+            this.btnImport.TabIndex = 4;
+            this.btnImport.Text = "Import";
+            this.btnImport.UseVisualStyleBackColor = true;
+            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
+            // 
             // addASong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1721, 939);
+            this.Controls.Add(this.btnImport);
             this.Controls.Add(this.btnRemoveSong);
             this.Controls.Add(this.btnCopySong);
             this.Controls.Add(this.tbPathDatabase);
@@ -200,5 +213,6 @@
         private System.Windows.Forms.TextBox tbPathDatabase;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button btnImport;
     }
 }
