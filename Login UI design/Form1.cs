@@ -10,58 +10,49 @@ using System.Windows.Forms;
 
 namespace Login_UI_design
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void ShowPassword_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox3_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (guna2PictureBox3.Tag == "hide")
+            if (ShowPassword.Text == "Show password")
             {
-                guna2PictureBox3.Image = Login_UI_design.Properties.Resources.eye;
-                guna2TextBox3.PasswordChar = '\0';
-                guna2PictureBox3.Tag = "eye";
+                PasswordTextBox.PasswordChar = '\0';
+                ShowPassword.Text = "Hide password";
+            }
+            else if (ShowPassword.Text == "Hide password")
+            {
+                PasswordTextBox.PasswordChar = '●';
+                ShowPassword.Text = "Show password";
+            }
+        }
+
+        private void SIGNUP_Click(object sender, EventArgs e)
+        {
+            PageLoginSignup.SetPage(1);
+        }
+
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            PageLoginSignup.SetPage(0);
+        }
+
+        private void ShowUnShowCheckBox_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs e)
+        {
+            if (ShowUnShowCheckBox.Checked == true)
+            {
+                NewPasswordTextBox.PasswordChar = '\0';
+                NewConfirmPasswordTextBox.PasswordChar = '\0';
             }
             else
             {
-                guna2PictureBox3.Image = Login_UI_design.Properties.Resources.hidden;
-                guna2TextBox3.PasswordChar = '●';
-                guna2PictureBox3.Tag = "hide";
-
-            }
-        }
-
-        private void guna2Button2_MouseHover(object sender, EventArgs e)
-        {
-            guna2CirclePictureBox1.BackColor = Color.RoyalBlue;
-        }
-
-        private void guna2Button2_MouseMove(object sender, MouseEventArgs e)
-        {
-            guna2CirclePictureBox1.BackColor = Color.DodgerBlue;
+                NewPasswordTextBox.PasswordChar = '●';
+                NewConfirmPasswordTextBox.PasswordChar = '●';
+            }    
         }
     }
 }
