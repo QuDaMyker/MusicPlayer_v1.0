@@ -79,7 +79,7 @@ namespace MusicPlayer_v1._0
         {
             string fileName = null;
             string sourcePath = null;
-            string databasePath = "E:\\UIT University\\Semester 3\\IT008.N13 - Lập trình trực quan\\Đồ Án\\MusicPlayer_v1.0\\listSong";
+            string databasePath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\listSong";
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 fileName = Path.GetFileName(openFileDialog1.FileName);
