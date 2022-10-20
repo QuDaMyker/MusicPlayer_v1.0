@@ -345,10 +345,10 @@
             this.PageLoginSignup.Location = new System.Drawing.Point(46, 11);
             this.PageLoginSignup.Multiline = true;
             this.PageLoginSignup.Name = "PageLoginSignup";
-            this.PageLoginSignup.Page = this.tabPage1;
-            this.PageLoginSignup.PageIndex = 0;
-            this.PageLoginSignup.PageName = "tabPage1";
-            this.PageLoginSignup.PageTitle = "tabPage1";
+            this.PageLoginSignup.Page = this.tabPage2;
+            this.PageLoginSignup.PageIndex = 1;
+            this.PageLoginSignup.PageName = "tabPage2";
+            this.PageLoginSignup.PageTitle = "tabPage2";
             this.PageLoginSignup.SelectedIndex = 0;
             this.PageLoginSignup.Size = new System.Drawing.Size(531, 557);
             this.PageLoginSignup.TabIndex = 19;
@@ -590,6 +590,7 @@
             this.CreateAccountButton.Size = new System.Drawing.Size(378, 52);
             this.CreateAccountButton.TabIndex = 11;
             this.CreateAccountButton.Text = "CREATE ACCOUNT";
+            this.CreateAccountButton.Click += new System.EventHandler(this.CreateAccountButton_Click);
             // 
             // NewEmailTextBox
             // 
@@ -607,7 +608,7 @@
             this.NewEmailTextBox.Location = new System.Drawing.Point(77, 195);
             this.NewEmailTextBox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.NewEmailTextBox.Name = "NewEmailTextBox";
-            this.NewEmailTextBox.PasswordChar = '●';
+            this.NewEmailTextBox.PasswordChar = '\0';
             this.NewEmailTextBox.PlaceholderText = "Email";
             this.NewEmailTextBox.SelectedText = "";
             this.NewEmailTextBox.Size = new System.Drawing.Size(378, 49);

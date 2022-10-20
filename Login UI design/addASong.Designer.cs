@@ -203,7 +203,6 @@
             this.Name = "addASong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "addASong";
-            this.Load += new System.EventHandler(this.addASong_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);

@@ -52,3 +52,5 @@ D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForm
 D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
 D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
 D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Micron.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\MySql.Data.dll

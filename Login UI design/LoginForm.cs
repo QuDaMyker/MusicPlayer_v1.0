@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Data.Models;
+using Micron;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,7 @@ namespace Login_UI_design
 {
     public partial class LoginForm : Form
     {
+        MicronDbContext micron = new MicronDbContext();
         public LoginForm()
         {
             InitializeComponent();
@@ -57,11 +60,39 @@ namespace Login_UI_design
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            if (EmailTextBox.Text == "user" && PasswordTextBox.Text == "admin")
+            User user = micron.GetRecord<User>($"Email='{EmailTextBox.Text}' AND Password = MD5('{PasswordTextBox.Text}')");
+            if (user == null)
             {
-                dashBoard dashb = new dashBoard();
-                dashb.Show();
+                MessageBox.Show("Invalid Login Credentials");
+                return;
             }
+            this.Visible = false;
+            dashBoard dasboard = new dashBoard();
+            dasboard.ShowDialog();
+            this.Visible = true;
+
+        }
+
+        private void CreateAccountButton_Click(object sender, EventArgs e)
+        {
+            User user = micron.GetRecord<User>($"Email='{EmailTextBox.Text}' AND Password = MD5('{PasswordTextBox.Text}')");
+            if (user != null)
+            {
+                MessageBox.Show("User already exists.");
+                return;
+            }
+            user = new User()
+            {
+                Name = NameTextBox.Text,
+                Phone = Int32.Parse(PhoneTextBox.Text),
+                Password = NewPasswordTextBox.Text,
+                Email = NewEmailTextBox.Text,
+            };
+            user = micron.Save(user);
+            MessageBox.Show("Account successfully created");
+            EmailTextBox.Text = user.Email;
+            PasswordTextBox.Text = user.Password;
+            PageLoginSignup.SetPage(0);
         }
     }
 }
