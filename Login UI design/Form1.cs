@@ -7,15 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using WMPLib;
+using System.IO;
 
 namespace MusicPlayer_v1._0
 {
     public partial class dashBoard : Form
     {
+        static string [] Songs;
         public dashBoard()
         {
             InitializeComponent();
+            loadPlayList();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -25,7 +28,7 @@ namespace MusicPlayer_v1._0
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DialogResult dr = MessageBox.Show("Do You Want Exit?", "Want something else?", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information);
+            DialogResult dr = MessageBox.Show("Do You Want Exit?", "Feedback", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information);
             if (dr == DialogResult.Yes)
             {
                 MessageBox.Show("Thank For Using😍");
@@ -36,11 +39,14 @@ namespace MusicPlayer_v1._0
                 MessageBox.Show("Thank For Using😍");
             }
         }
-
         private void btn_addSong_Click(object sender, EventArgs e)
         {
             addASong addASong = new addASong();
             addASong.Show();
+        }
+        private void loadPlayList()
+        {
+
         }
     }
 }
