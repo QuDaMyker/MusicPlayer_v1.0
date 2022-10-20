@@ -1,0 +1,8 @@
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login UI design.csproj.AssemblyReference.cache
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login UI design.csproj.SuggestedBindingRedirects.cache
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\MusicPlayer_v1._0.addASong.resources
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\MusicPlayer_v1._0.dashBoard.resources
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login_UI_design.LoginForm.resources
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login_UI_design.Properties.Resources.resources
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login UI design.csproj.GenerateResource.cache
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login UI design.exe.licenses

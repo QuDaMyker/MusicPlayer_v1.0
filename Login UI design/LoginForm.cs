@@ -60,7 +60,6 @@ namespace Login_UI_design
             if (EmailTextBox.Text == "user" && PasswordTextBox.Text == "admin")
             {
                 dashBoard dashb = new dashBoard();
-                this.Hide();
                 dashb.Show();
             }
         }

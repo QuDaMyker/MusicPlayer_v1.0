@@ -47,5 +47,10 @@ namespace MusicPlayer_v1._0
         {
 
         }
+
+        private void dashBoard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
