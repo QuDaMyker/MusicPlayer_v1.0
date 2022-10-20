@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\bin\Debug\Login UI design.exe.config
 D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\bin\Debug\Login UI design.exe
 D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\bin\Debug\Login UI design.pdb
@@ -54,3 +55,13 @@ D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForm
 D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
 D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Micron.dll
 D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\MySql.Data.dll
+=======
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login UI design.csproj.AssemblyReference.cache
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login UI design.csproj.SuggestedBindingRedirects.cache
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\MusicPlayer_v1._0.addASong.resources
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\MusicPlayer_v1._0.dashBoard.resources
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login_UI_design.LoginForm.resources
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login_UI_design.Properties.Resources.resources
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login UI design.csproj.GenerateResource.cache
+C:\Users\quocd\OneDrive\Tài liệu\GitHub\MusicPlayer_v1.0\Login UI design\obj\Debug\Login UI design.exe.licenses
+>>>>>>> b4886b1dbd914624c27eb25e503cfe804abeec36
