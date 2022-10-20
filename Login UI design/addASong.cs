@@ -16,7 +16,6 @@ namespace MusicPlayer_v1._0
     public partial class addASong : Form
     {
         static string usernameAccountPC = Environment.UserName;
-        //static string getCurrentPath = Directory.GetCurrentDirectory() + "\\listSong";
         public addASong()
         {
             InitializeComponent();
@@ -24,7 +23,6 @@ namespace MusicPlayer_v1._0
         }
         private void loadSong()
         {
-            
             using (FolderBrowserDialog sc = new FolderBrowserDialog() { Description = "Choose Path" })
             {
                 
@@ -71,12 +69,7 @@ namespace MusicPlayer_v1._0
 
             using (FolderBrowserDialog db = new FolderBrowserDialog() { Description = "Choose Path" })
             {
-                // string getCurrentPath = Directory.GetCurrentDirectory() + "\\listSong";
-                //db.SelectedPath = "E:\\UIT University\\Semester 3\\IT008.N13 - Lập trình trực quan\\Đồ Án\\MusicPlayer_v1.0\\listSong";
-                //db.SelectedPath = getCurrentPath;
-                db.SelectedPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\listSong";
-                //MessageBox.Show(getCurrentPath);
-                //db.SelectedPath = Path.GetFullPath("listSong");
+                db.SelectedPath = "E:\\UIT University\\Semester 3\\IT008.N13 - Lập trình trực quan\\Đồ Án\\MusicPlayer_v1.0\\listSong";
                 webBrowserData.Url = new Uri(db.SelectedPath);
                 tbPathDatabase.Text = db.SelectedPath;
             }
@@ -118,6 +111,11 @@ namespace MusicPlayer_v1._0
                     tbPathSouce.Text = fd.SelectedPath;
                 }
             }
+        }
+
+        private void addASong_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
