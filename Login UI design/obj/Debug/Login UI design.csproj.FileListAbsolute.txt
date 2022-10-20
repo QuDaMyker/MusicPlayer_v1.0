@@ -1,0 +1,54 @@
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\bin\Debug\Login UI design.exe.config
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\bin\Debug\Login UI design.exe
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\bin\Debug\Login UI design.pdb
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\obj\Debug\Login UI design.csproj.AssemblyReference.cache
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\obj\Debug\Login UI design.csproj.SuggestedBindingRedirects.cache
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\obj\Debug\Login_UI_design.Form1.resources
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\obj\Debug\Login_UI_design.Properties.Resources.resources
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\obj\Debug\Login UI design.csproj.GenerateResource.cache
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\obj\Debug\Login UI design.csproj.CoreCompileInputs.cache
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\obj\Debug\Login UI design.exe
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\obj\Debug\Login UI design.pdb
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\obj\Debug\Login UI design.csproj.CopyComplete
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\obj\Debug\Login UI design.exe.licenses
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\bin\Debug\Guna.UI2.dll
+D:\Tài liệu năm hai\Học kì 1\Lập trình trực quan\MusicPlayer1_0\Login UI design\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Login UI design.exe.config
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Login UI design.exe
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Login UI design.pdb
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Guna.UI2.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\Login UI design.csproj.AssemblyReference.cache
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\Login UI design.csproj.SuggestedBindingRedirects.cache
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\Login_UI_design.LoginForm.resources
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\Login_UI_design.Properties.Resources.resources
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\Login UI design.csproj.GenerateResource.cache
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\Login UI design.exe.licenses
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\Login UI design.csproj.CoreCompileInputs.cache
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\Login UI design.csproj.CopyComplete
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\Login UI design.exe
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\Login UI design.pdb
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\MusicPlayer_v1._0.addASong.resources
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\obj\Debug\MusicPlayer_v1._0.dashBoard.resources
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\ProjectWeb\MusicPlayer_v1.0-Login\Login UI design\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
